@@ -28,7 +28,7 @@ class Solution {
             return true;
         }
 
-        if (i < 0 || i >= m || j < 0 || j >= n || board[i][j] == '#' || board[i][j] != word.charAt(pointer)) {
+        if (i < 0 || i >= m || j < 0 || j >= n  || board[i][j] != word.charAt(pointer)) {
             return false;
         }
 
