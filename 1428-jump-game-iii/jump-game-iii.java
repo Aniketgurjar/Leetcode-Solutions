@@ -2,11 +2,11 @@
 class Solution {
     public boolean canReach(int[] arr, int start) {
         int n = arr.length;
-        int[] vis = new int[n]; // 0 = not visited, -1 = visited
+        int[] vis = new int[n]; 
 
         Queue<Integer> q = new LinkedList<>();
         q.add(start);
-        vis[start] = -1; // mark as visited when adding to queue
+        vis[start] = -1; 
 
         while (!q.isEmpty()) {
             int k = q.poll();
