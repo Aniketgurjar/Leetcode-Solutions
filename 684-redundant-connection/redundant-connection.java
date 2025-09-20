@@ -43,7 +43,7 @@ for(int[]arr:edges){
     if(dsu.find(arr[0])==dsu.find(arr[1])){
 ans[0]=arr[0];
 ans[1]=arr[1];
-break;
+
 }else{
     dsu.union(arr[0],arr[1]);
 }
