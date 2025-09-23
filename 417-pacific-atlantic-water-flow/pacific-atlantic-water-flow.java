@@ -43,7 +43,7 @@ return;
             List<Integer> newList = new ArrayList<>();
             newList.add(i);
             newList.add(j);
-            if (!list.contains(newList)) list.add(newList);
+        list.add(newList);
         }
 
         dfs(heights, i + 1, j, pacific, atlantic,i,j);
