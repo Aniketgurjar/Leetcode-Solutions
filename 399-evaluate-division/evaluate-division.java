@@ -19,8 +19,7 @@ class pair {
 }
 
 class Solution {
-    double ans; // changed from int to double
-
+    double ans; 
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
         HashMap<String, List<pair>> hm = new HashMap<>();
       
