@@ -67,7 +67,8 @@ class Solution {
         for (pair p : hm.get(curr)) {
             dfs(hm, p.getdestination(), currdiv * p.getdiv(), end, hs);
         }
-        hs.remove(curr); 
+                   
+
     }
 }
 
